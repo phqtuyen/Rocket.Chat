@@ -2,10 +2,6 @@ language: node_js
 services:
 - docker
 - mongodb
-branches:
-  only:
-  - develop
-  - "/^\\d+\\.\\d+\\.\\d+(-rc\\.\\d+)?$/"
 git:
   depth: 1
 node_js:
